@@ -1,3 +1,6 @@
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log("ready!")
 google.charts.load('current', {'packages':['bar']});
 google.charts.setOnLoadCallback(drawStuff);
 
@@ -32,3 +35,4 @@ function drawStuff() {
   var chart = new google.charts.Bar(document.getElementById('dual_y_div'));
   chart.draw(data, options);
 };
+});
