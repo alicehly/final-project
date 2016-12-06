@@ -1,19 +1,54 @@
 .background-image {
 	background: url('https://static1.squarespace.com/static/559de0e4e4b072f293ce418b/5761a287f699bbbeb8f15dcd/5769d1eb6b8f5b94a53a5aa8/1466553718677/IMG_0280.jpg?format=2500w');
+	
+}
+
+
+header {
+	width:1270px;
+	height:700px;
 
 }
 
 h1 {
 	text-align: center;
 	padding-top: 300px;
+	font-family: 'Abril Fatface';
+	font-size: 32pt;
+	color:white;
+
+}
+
+h3 {
+	text-align: center;
 	color: white;
-	font-family: sans-serif;
+	font-family: 'Abril Fatface';
+}
+
+body {
+  font-family: 'Abril Fatface';
+  font-size: 12pt;
+}
+
+img {
+	height:300px;
+	width:500px;
+	float: left;
+    margin: 15px 15px 20px 20px;
+
+}
+
+img {
+	height:300px;
+	width:500px;
+	float: right;
+    margin: 15px 15px 20px 20px;
+
 }
 
 
-body {
-  font-family: font-family: 'Yrsa', serif;
-  font-size: 12pt;
+.chart {
+	object-position: center;
 }
 
 blockquote {
@@ -23,9 +58,6 @@ blockquote {
   margin-left: 400px;
 }
 
-h1 {
-	object-position: center;
-}
 
 p {
   margin-top: 40px;
