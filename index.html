@@ -3,8 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel {
+    padding: 10px;
+    display: none;
+}
+</style>
+</head>
+
+<body>
+
+
   <script src="script-1.js"></script>
-  <script async src="//jsfiddle.net/jm2ferz9/embed/"></script>
   <div id="chart_div"></div>
 
   <link rel="stylesheet" href="style.css">
@@ -15,6 +50,7 @@
 <header class="background-image">
 <div class="headline">
 <h1> Finding a Home in the Midst of Gentrification</h1>
+<h3> by Alice Ly </h3>
 </header>
 </div>
 
@@ -24,32 +60,29 @@ For many native New Yorkers who are getting read to leave their parents homes, t
 
 
 <p>
-New Yorkers have seen local businesses shut down and get replaced by lavish soap shops, neighbors get pushed out, crime rates go down, and their neighborhood parks becoming more “safe.” The changes in demographics often raises the question, “Who are these neighborhoods changing for?” 
+New Yorkers have seen local businesses shut down and get replaced by lavish soap shops, neighbors get pushed out, crime rates go down, and their neighborhood parks becoming more “safe.” The changes in demographics often raises the question, “Who are these neighborhoods changing for?”
 </p>
 
 <p>
 Ashley Prather, 23, a theatre student at Lang, grew up in Beverly Square West, a small street residing in Ditmas Park. Prather moved to Beverly Square when she was eight years-old and remembers Beverly Square West as a place that was made of small businesses such as 99 cent stores and other diverse stores that catered to the immigrant population, such as a Tibetan and Spanish grocery stores.
 </p>
 
+  <blockquote>
+“I can never imagine myself ever being able to afford to live in the neighborhood I grew up in, even when I’m an adult and I have a steady income,” Prather said.
+  </blockquote>
 
 <p>
-“As I got older I started to understand why my parents wanted me back by dark because there was a shooting outside of my house.” Prather said that crime has decreased in the neighborhood as transplants, mostly young, white adults, began to migrate in. 
-</p>
-
-<p>
+“As I got older I started to understand why my parents wanted me back by dark because there was a shooting outside of my house.” Prather said that crime has decreased in the neighborhood as transplants, mostly young, white adults, began to migrate in.
 Trendy cafes and restaurants have opened up such as coffee bars, artisanal craft places, and places where drunk drawing classes are offered. Prather fears that the neighborhood she grew up in will slowly begin to look less like Flatbush, and more like Park Slope.
 </p>
 
 
-  <blockquote>
-“I can never imagine myself ever being able to afford to live in the neighborhood I grew up in, even when I’m an adult and I have a steady income,” Prather said. 
-  </blockquote>
-  
-<script type="text/javascript"
-src="http://www.gstatic.com/charts/loader.js"></script>
-  <div id="dual_y_div" style= "width:900px; height: 500px;"></div>
-  
-  
+
+<div class="chart">
+<center><script type="text/javascript" src="http://www.gstatic.com/charts/loader.js"></script>
+<div id="dual_y_div" style= "width: 900px; height: 500px;"></div>
+</div></center>
+
 <p>
 Prather moved into her own apartment in Crown Heights, where she currently resides in a $1,700 one bedroom she shares with her partner. “I don’t even know how long I will be able to live in Brooklyn.”
   </p>
@@ -58,74 +91,55 @@ Prather moved into her own apartment in Crown Heights, where she currently resid
 In some neighborhoods, the pros of gentrification have come up before the cons. Kaylin Simone,18, grew up in East New York, Brooklyn. “It’s a weird feeling because I feel like my space is being invaded. However, knowing that the police will come when the gentrifiers call them makes me feel slightly safer.”
 </p>
 
-
-  <p>
-East New York is located east of Brownsville and Canarsie, a primarily hispanic neighborhood. Her family had moved to Brooklyn in the 1970s from Pennsylvania. 
-  </p>
+<div container="img-one">
+<img src="https://static1.squarespace.com/static/559de0e4e4b072f293ce418b/5761a287f699bbbeb8f15dcd/5769d3d29de4bbf43630fdc2/1466555787389/IMG_9820.jpg?format=2500w"></div>
 
 <p>
+East New York is located east of Brownsville and Canarsie, a primarily hispanic neighborhood. Her family had moved to Brooklyn in the 1970s from Pennsylvania.
 Over recent years, Simone expressed that her neighborhood's pride has become more and more threatened as an increase in young, transplants began moving to the surrounding areas such as Bed Stuy. “Even Broadway Junction doesn’t look recognizable anymore, and I grew up seeing it as a hotspot for crime.”
 </p>
 
 <p>
-Simone, however, does find some benefits in response to the gentrification in her surrounding areas. “The police actually come now when you call them,” Simone said. 
+Simone, however, does find some benefits in response to the gentrification in her surrounding areas. “The police actually come now when you call them,” Simone said.
   </p>
 
 <p>
-She recalled an incident where a fight occurred on the corner by her home. A kid had been jumped by a group of men and was left bleeding on the sidewalk. A woman who lived on the street had called the police, however, it took two hours for an ambulance and officer to arrive, even though two police officers were always stationed at the Broadway Junction J train station. 
-  </p>
-
-<p>
+She recalled an incident where a fight occurred on the corner by her home. A kid had been jumped by a group of men and was left bleeding on the sidewalk. A woman who lived on the street had called the police, however, it took two hours for an ambulance and officer to arrive, even though two police officers were always stationed at the Broadway Junction J train station.
 Simone has no fear of gentrification reaching East New York soon. “It's still gonna be a long time before it's deemed worthy enough for gentrification,” Simone said. “I feel like we won't see Starbucks and cafes open in the next 10 or 15 years. I feel more comfortable with leaving my neighborhood and coming back to it being the same.”
-  </p>
+</p>
+
+<div container ="img-two">
+<div id="flip"><img src= "https://static1.squarespace.com/static/559de0e4e4b072f293ce418b/5761a287f699bbbeb8f15dcd/5769d3d1579fb386895cbd5b/1466555787690/IMG_7651.JPG?format=2500w"></div>
+<div id="panel">Photo Courtesy of Donghee Eim</div>
 
 <p>
 The decision to move out of the parent’s homes requires not just financial independence, but maturing and swallowing one’s pride. For Reuben Wilson, 20, he has accepted the reality that after graduation he may have to leave the city or move back into his parent’s home.
-  </p>
-
-  <p>
-  “As much as I love this city, if I get pushed out I’ve accepted that I will have to go elsewhere,” said Wilson. “If I can’t find my own place after graduation, I know I’ll always have a home uptown.” 
+  “As much as I love this city, if I get pushed out I’ve accepted that I will have to go elsewhere,” said Wilson. “If I can’t find my own place after graduation, I know I’ll always have a home uptown.”
   </p>
 
 <p>
-Wilson was raised uptown in Morningside Heights in a two bedroom apartment across from Morningside Park. He described his neighborhood as one that was notorious for drug use and the park was known as one of the most dangerous areas in the city. 
-  </p>
-
-<p>
-“You used to see crack pipes and needles and hear gunshots in the streets,” Wilson said. “It was always advised for you to not be in that park. But I’ve seen it transition to the most calm area and now you can hang out there at anytime.” 
-  </p>
-
-<p>
+Wilson was raised uptown in Morningside Heights in a two bedroom apartment across from Morningside Park. He described his neighborhood as one that was notorious for drug use and the park was known as one of the most dangerous areas in the city.
+“You used to see crack pipes and needles and hear gunshots in the streets,” Wilson said. “It was always advised for you to not be in that park. But I’ve seen it transition to the most calm area and now you can hang out there at anytime.”
   As time progressed, Wilson watched his streets change as multiple Starbucks’ opened in the area, luxury condos were built, and Columbia University bought property in the area.
   </p>
 
 
   <p>
-    For Casielle Santos-Garerlan, 21, she has seen a similar change in terms of chain stores and luxury buildings being built. Gentrification has changed the definition of her neighborhood, Park Slope, Brooklyn. The drastic changes have highlighted a sense of greed that gentrifiers hold. 
-  </p>
-
-
-  <p>
-    As local businesses that catered to the community get replaced by large, chain businesses, Santos questioned at what costs does it take for a neighborhood to improve.    
+    For Casielle Santos-Garerlan, 21, she has seen a similar change in terms of chain stores and luxury buildings being built. Gentrification has changed the definition of her neighborhood, Park Slope, Brooklyn. The drastic changes have highlighted a sense of greed that gentrifiers hold.
+    As local businesses that catered to the community get replaced by large, chain businesses, Santos questioned at what costs does it take for a neighborhood to improve.
   </p>
 
 
  <blockquote>
    “I see it as a bad and good thing, it's difficult because, yes, the neighborhood is ‘improving’ but at the cost of my friends families moving away.”
-  </blockquote> 
+  </blockquote>
 
  <p>
-   She remembers the neighborhood as a predominant Latino community with black and white people. Now, the sidewalks are filled with mothers and their strollers, white people moving in from out of state, and homes for bigger families. 
-  </p> 
+   She remembers the neighborhood as a predominant Latino community with black and white people. Now, the sidewalks are filled with mothers and their strollers, white people moving in from out of state, and homes for bigger families.
+   “These condos are being made not really thinking of the capacity of Park Slope. The public schools are filled and competitive, the trains are insanely crowded and there's a sense of otherness with people moving in.”
+  Santos’ family bought their brownstone in 1996. “I know that I am lucky to have a space to live here already but in terms of moving out that would be a big decision if I wanna live somewhere else in the city. “ Santos said.</p>
 
-
- <p>
-   “These condos are being made not really thinking of the capacity of Park Slope. The public schools are filled and competitive, the trains are insanely crowded and there's a sense of otherness with people moving in.”   
-  </p> 
-
-
-<p>
-  Santos’ family bought their brownstone in 1996. “I know that I am lucky to have a space to live here already but in terms of moving out that would be a big decision if I wanna live somewhere else in the city. “ Santos said, “I don't think it would be possible to support myself here, especially looking at how my block as transformed people moving in and out.”  
+  <p> “I don't think it would be possible to support myself here, especially looking at how my block as transformed people moving in and out.”
   </p>
 </div>
 
